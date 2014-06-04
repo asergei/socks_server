@@ -27,11 +27,12 @@ Specifies a path to a logfile.
 Specifies the type of events to be logged. The following values
 can be used:
 
-|Loglevel|  Description |
-------------------------
-|1       |  error  
-|2       |  note (including error)
-|3       |  trace (including note)
+------------------------------------
+|Loglevel|  Description            |
+------------------------------------
+|1       |  error                  |
+|2       |  note (including error) |
+|3       |  trace (including note) |
 
 Specifying `1` will log only errors. Specifying `2` will log errors and
 notes and so on.
